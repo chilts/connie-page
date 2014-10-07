@@ -1,0 +1,9 @@
+h1 Content Pages
+
+for page in connie.page.pages
+  h2
+    a(href="#{page._id}")= page.title
+  | !{page.html}
+  hr
+
+p (Ends)
