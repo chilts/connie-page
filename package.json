@@ -1,0 +1,38 @@
+{
+  "name": "connie-page",
+  "version": "1.0.0",
+  "description": "Content pages for Connie, a Content Management System (CMS).",
+  "main": "connie-page.js",
+  "homepage": "https://github.com/chilts/connie-page",
+  "dependencies": {
+    "marked": "^0.3.2"
+  },
+  "devDependencies": {
+    "express": "^4.9.5",
+    "jade": "^1.7.0",
+    "mongodb": "^1.4.18"
+  },
+  "bugs": {
+    "url": "https://github.com/chilts/connie-page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chilts/connie-page.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Andrew Chilton",
+    "email": "andychilton@gmail.com",
+    "url": "http://chilts.org/"
+  },
+  "license": "Apache 2.0",
+  "keywords": [
+    "connie-plugin",
+    "cms",
+    "connie",
+    "content",
+    "page"
+  ]
+}
